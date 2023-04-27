@@ -19,4 +19,4 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "ricardocasares-vps-deno"
-          entrypoint: "./vite.config.ts" # TODO: update entrypoint
+          entrypoint: "./vite.config.mjs" # TODO: update entrypoint
